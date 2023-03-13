@@ -33,8 +33,8 @@ const Business = () => {
         <Button style="mt-10"/>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((features, index) => {
-          <FeatureCard key={feature.id} {...feature} index/>
+        {features.map((feature, index) => {
+          <FeatureCard key={feature.id} {...feature} index={index}/>
         })}
 
       </div>
