@@ -1,6 +1,6 @@
 import React from 'react';
 import { apple, bill, google } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles";
 
 const Billing = () => {
   return (
@@ -14,8 +14,13 @@ const Billing = () => {
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden'/> billing and invoicing.</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa eitam. Mauris eu asip
+          Elit enim sed massa eitam. Mauris eu adippscing ultrices ametodio aenean neque.
+          Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
       </p>
+      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"/>
+        <img src={google} alt="google_play" className="w-[128px] h-[42px] object-contain cursor-pointer"/>
+      </div>
     </div>
     </section>
   )
