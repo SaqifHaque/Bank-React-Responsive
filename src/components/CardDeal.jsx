@@ -14,7 +14,7 @@ const CardDeal = () => {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet 
           quis aliquet eget mauris tortor. Aliquest ultrices ac, ametau.
         </p>
-        <Button styles="mt-10"></Button>
+        <Button style="mt-10" title="Get Started" />
       </div>    
       <div className={layout.sectionImg}>
         <img src={card} alt="card" className="w-[100%] h-[100%]" />
